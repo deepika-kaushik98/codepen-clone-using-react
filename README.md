@@ -1,6 +1,60 @@
-# Getting Started with Create React App
+ #  CodePen Clone using React
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A web-based code editor that replicates the core functionality of CodePen — allowing users to write and preview HTML, CSS, and JavaScript code in real-time. Built with React and Material UI.
+
+## Features
+- Live HTML, CSS, and JS editor
+- Real-time output preview
+- Responsive and clean UI with Material UI
+- Fully component-based architecture using React
+
+## Tech Stack
+
+- Frontend: React (with functional components and hooks)
+- UI Library: Material UI
+- Bundler: Vite
+- Styling: Tailwind CSS (optional, if used)
+
+## Folder Structure
+
+codepen-clone/
+├── src/
+│   ├── components/
+│   │   ├── Editor.jsx
+│   │   └── Result.jsx
+│   ├── context/
+│   │   └── DataProvider.jsx
+│   ├── App.js
+│   └── main.jsx
+├── index.html
+└── package.json
+
+## Installation
+
+1. Clone the repository:
+   git clone https://github.com/deepika-kaushik98/codepen-clone-using-react.git
+
+2. Navigate to the project directory:
+   cd codepen-clone-using-react
+
+3. Install dependencies:
+   npm install
+
+4. Start the development server:
+   npm run dev
+# Output
+![codepen](https://github.com/user-attachments/assets/d63be590-75e5-4c63-b0f0-f7998dcf7049)
+
+# Future Improvements
+- User authentication
+- Save and share pens
+- Theme switcher (dark/light mode)
+- Drag-and-resize panels
+
+
+## License
+
+This project is licensed under the MIT License.
 
 ## Available Scripts
 
@@ -17,7 +71,6 @@ You may also see any lint errors in the console.
 ### `npm test`
 
 Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
 ### `npm run build`
 
@@ -27,7 +80,6 @@ It correctly bundles React in production mode and optimizes the build for the be
 The build is minified and the filenames include the hashes.\
 Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
 ### `npm run eject`
 
@@ -39,32 +91,10 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
+# Author
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Deepika Kaushik  
+GitHub: https://github.com/deepika-kaushik98
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
